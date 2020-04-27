@@ -1,0 +1,78 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $("#nav_menu").slicknav({
+              prependTo: "#mobilemenu"
+          });
+      });
+  </script>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins|Quicksand|Raleway&display=swap" rel="stylesheet">
+        <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HeadHunter Hairstyling</title>
+    </head>
+    <body>
+   <header>
+     <!--This is the drop down menu-->
+     <figure><img src="logo.png" width="30%" height="10%" alt="logo" class= "figure"> </figure>
+     <div class="wrapper">
+     <nav id="mobilemenu"></nav>
+     <nav id="nav_menu">
+      <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Services</a>
+        <ul class="dropdown_menu">
+          <li><a href="#">Hair Coloring</a></li>
+          <li><a href="#">Hair Cutting </a></li>
+          <li><a href="#">Nail Services</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Stylists</a>
+      </li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+    </header>
+    <main>
+        <h2>Contact Us!</h2>
+        <h3>Phone: 805.443.3308</h3>
+        <h3>Address: 205 S Baylen St 
+            Pensacola, FL</h3>
+        <h3>Email: info@headhunterstyling.com</h3>
+        <div class="form">
+            <form action="action_page.php">
+          
+              <label for="fname"></label>
+              <input type="text" id="fname" name="firstname" placeholder="First Name">
+          
+              <label for="lname"></label>
+              <input type="text" id="lname" name="lastname" placeholder="Last Name">
+          
+              <label for="subject"></label>
+              <textarea id="subject" name="subject" placeholder="Write Your Message Here" style="height:100px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+
+    </main>
+    <!--This is the footer info-->
+    <footer>
+        <div class="footer">
+          <p>Headhunter Hairstyling and Nails</p>
+          <h2><i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i> <i class="fab fa-snapchat"></i></h2>
+          <p>205 S Baylen St. Pensacola, FL | 805.443.3308 | info@headhunterstyling.com</p>
+        </div>
+      </footer>
+     </body>
+  </html>
+   </body>
+</html>
